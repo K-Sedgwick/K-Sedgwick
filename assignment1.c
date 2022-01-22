@@ -9,7 +9,7 @@ uint8_t getLow(uint16_t reg){
   uint16_t temp_reg = reg >> 8; // clear the larger bits
   return  (uint8_t) temp_reg; // Truncate and return.
 }
-
+ // test comment
 typedef struct Registers{
   uint16_t af, bc, de, hl, sp;
 } Registers;
