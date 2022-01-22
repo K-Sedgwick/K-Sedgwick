@@ -2,7 +2,6 @@
 //return the LSB of the 2-byte value
 uint8_t getLow(uint16_t reg);
 
-
 //set the LSB of the 2-byte value pointed to by reg_p to val
 void setLow(uint16_t* reg_p, uint8_t val);
 
